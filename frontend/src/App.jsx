@@ -150,7 +150,7 @@ const App = () =>{
         throw new Error("Failed to update task reorder")
       }
 
-      toast.success("Task ordering successful!👌")
+      // toast.success("Task ordering successful!👌")
     } catch (error) {
       console.log(error)
       toast.error("Something went wrong while reordering todos.")
